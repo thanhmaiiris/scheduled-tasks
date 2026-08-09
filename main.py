@@ -4,8 +4,8 @@ import smtplib
 import os
 WEEKLY_SENDING_DAY = 0
 to_mail = "student232616@ptnk.edu.vn"
-my_mail = os.environ.get("my_mail")
-password = os.environ.get("password")
+my_mail = os.environ.get("MY_MAIL")
+password = os.environ.get("PASSWORD")
 
 
 def check_weekday():
