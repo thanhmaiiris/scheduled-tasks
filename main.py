@@ -4,7 +4,7 @@ import smtplib
 import os
 WEEKLY_SENDING_DAY = 0
 to_mail = "student232616@ptnk.edu.vn"
-my_mail = os.environ.get("MY_MAIL")
+my_mail = os.environ.get("MY_EMAIL")
 password = os.environ.get("PASSWORD")
 
 
